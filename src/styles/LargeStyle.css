@@ -1,0 +1,38 @@
+@media screen and (min-width: 736px) {
+    .navbar {
+      background: white;
+      width: 100vw;
+      min-height: 4.5rem;
+      flex-direction: row;
+      align-items: center;
+    }
+    .navbar-collapse {
+      justify-content: right;
+      text-align: right;
+    }
+    .logo-block {
+      justify-content: left;
+      text-align: left;
+      margin-right: 50px;
+    }
+    #logo {
+      background: #00000090;
+      height: 3.5rem;
+      width: 7rem;
+      margin-left: 150px;
+    }
+    .nav-link {
+      margin-right: 40px;
+      font-size: 16px;
+    }
+    #contact_us {
+      background: linear-gradient(98deg, rgba(54, 40, 223, 0.60) 2.27%, rgba(69, 117, 246, 0.60) 96.38%);
+      padding: 15px 20px;
+      color: #fff;
+    }
+    .navbar a {
+        color: #00000080;
+        text-decoration: none;
+        font-weight: 400;
+      }
+  }
