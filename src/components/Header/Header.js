@@ -3,7 +3,7 @@ import s from './Header.module.css'
 
 var collapseOpened = false;
 
-function collapseState() {
+const collapseState = () => {
   if(collapseOpened) {
     collapseOpened = false
     collapseClose();
@@ -19,8 +19,8 @@ const collapseOpen = () => {
 }
 
 const collapseClose = () => {
-  document.getElementById(s['nav-collapse']).style.display = 'none';
   document.getElementById(s['nav-collapse']).style.height = '0';
+  document.getElementById(s['nav-collapse']).style.display = 'none';
 }
 
 const Header = () => {
