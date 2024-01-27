@@ -15,10 +15,12 @@ function collapseState() {
 
 const collapseOpen = () => {
   document.getElementById(s['nav-collapse']).style.display = 'block';
+  document.getElementById(s['nav-collapse']).style.height = 'auto';
 }
 
 const collapseClose = () => {
   document.getElementById(s['nav-collapse']).style.display = 'none';
+  document.getElementById(s['nav-collapse']).style.height = '0';
 }
 
 const Header = () => {
