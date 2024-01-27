@@ -35,10 +35,10 @@ const Header = () => {
         </div>
         <div className='col-lg-9 col-12' id={s['nav-collapse']}>
           <div className={s['navbar-collapse']}>
-            <a href='#' className={s['nav-link']}>Sites</a>
-            <a href='#' className={s['nav-link']}>Telegram Bots</a>
-            <a href='#' className={s['nav-link']}>Price List</a>
-            <a href='#' className={s['nav-link']}>Portfolio</a>
+            <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Sites</a>
+            <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Telegram Bots</a>
+            <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Price List</a>
+            <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Portfolio</a>
             <a href='#' className={`${s['nav-link']} btn`} id={s.contact_us}>Contact us</a>
           </div>
         </div>
