@@ -1,3 +1,54 @@
+@media screen and (min-width: 992px) {
+    .col-lg-1 {
+    flex: 0 0 auto;
+    width: 8.33333333% !important;
+  }
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 2) !important;
+  }
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 3) !important;
+  }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 4) !important;
+  }
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 5) !important;
+  }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 6) !important;
+  }
+  .col-lg-7 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 7) !important;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 8) !important;
+  }
+  .col-lg-9 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 9) !important;
+  }
+  .col-lg-10 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 10) !important;
+  }
+  .col-lg-11 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 11) !important;
+  }
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: calc(8.33333333% * 12) !important;
+  }
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
