@@ -5,7 +5,7 @@
         margin-right: calc(23.5vw - 8.33333333% * 2);
     }
 
-    #nav-collapse {
+    .nav-collapse-class {
         display: block;
     }
 
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    #nav-collapse {
+    .nav-collapse-class {
         display: none;
         text-align: center;
         padding-top: 15px;

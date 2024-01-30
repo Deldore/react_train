@@ -1,23 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import s from './Header.module.css'
 
-var collapseOpened = false;
-
-const collapseState = () => {
-  collapseOpened = !collapseOpened;
-}
-
 const Header = () => {
-
+    const [collapseState, setCollapseState] = useState(false);
+    // console.log(collapseState);
     return (
       <nav className={`${s.navbar} row`}>
         <div className={`col-lg-2 col-12 ${s['logo-block']}`}>
-          <div className={`btn ${s.menuButton}`} onClick={function(){
-            collapseState();
-          }}>≡</div>
+          <div className={`btn ${s.menuButton}`} onClick={() => setCollapseState(!collapseState)}>≡</div>
           <div id={s.logo}></div>
         </div>
-        <div className={`col-lg-9 col-12 ${s['nav-collapse-class']} ${collapseOpened ? "opened" : ""}`}>
+        <div className={`col-lg-9 col-12 ${s['nav-collapse-class']} ${collapseState ? s.opened : ""}`}>
           <div className={s['navbar-collapse']}>
             <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Sites</a>
             <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Telegram Bots</a>
