@@ -8,7 +8,7 @@ const Header = () => {
       <nav className={`${s.navbar} row`}>
         <div className={`col-lg-2 col-12 ${s['logo-block']}`}>
           <div className={`btn ${s.menuButton}`} onClick={() => setCollapseState(!collapseState)}>≡</div>
-          <div id={s.logo}></div>
+          <div className={s.logo}></div>
         </div>
         <div className={`col-lg-9 col-12 ${s['nav-collapse-class']} ${collapseState ? s.opened : ""}`}>
           <div className={s['navbar-collapse']}>
@@ -16,7 +16,7 @@ const Header = () => {
             <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Telegram Bots</a>
             <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Price List</a>
             <a href='#' className={`${s['nav-link']} ${s['animatedLink']}`}>Portfolio</a>
-            <a href='#' className={`${s['nav-link']} btn`} id={s.contact_us}>Contact us</a>
+            <a href='#' className={`${s['nav-link']} btn ${s.contact_us}`}>Contact us</a>
           </div>
         </div>
       </nav>

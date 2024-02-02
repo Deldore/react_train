@@ -15,7 +15,7 @@
         margin-right: 50px;
     }
 
-    #logo {
+    .logo {
         background: #00000090;
         height: 3.5rem;
         width: 7rem;
@@ -30,7 +30,7 @@
         text-decoration: none;
     }
 
-    #contact_us {
+    .contact_us {
         background: linear-gradient(98deg, rgba(54, 40, 223, 0.60) 2.27%, rgba(69, 117, 246, 0.60) 96.38%);
         background: -moz-linear-gradient(98deg, rgba(54, 40, 223, 0.60) 2.27%, rgba(69, 117, 246, 0.60) 96.38%);
         padding: 15px 20px;
@@ -85,7 +85,7 @@
         background: rgb(142, 142, 142);
     }
 
-    #logo {
+    .logo {
         background: #00000090;
         height: 3.5rem;
         width: 7rem;
@@ -138,13 +138,13 @@
     width: 100%;
 }
 
-#contact_us {
+.contact_us {
     background: linear-gradient(98deg, rgba(54, 40, 223, 0.60) 2.27%, rgba(69, 117, 246, 0.60) 96.38%);
     padding: 7px 10px;
-    color: #fff;
+    color: #fff !important;
 }
 
-#logo {
+.logo {
     background-image: url('./logo.png');
     background-position: center;
     background-repeat: no-repeat;
